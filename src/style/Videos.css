@@ -1,0 +1,47 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    background-color: #602A3E;
+    margin-top: 80px;
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies-container img{
+    width: 350px;
+    height: 550px;
+    margin: 25px 20px 4px 15px;
+    border-radius: 18px;
+}
+
+.movies-container h3, .movies-container img{
+    cursor: pointer;
+    transition: .7s;
+}
+.movies-container img:hover{
+    transform: scale(1.05);
+}
+#container{
+    position: relative;
+}
+
+#yazi{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+#smaller-Text{
+    color: aliceblue;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+#NoContainer{
+    opacity: 0.35;
+}
