@@ -3,7 +3,7 @@ import { UserButton } from "@clerk/clerk-react"
 import {Drawer,IconButton,List,ListItemButton,ListItemIcon,ListItemText,} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
-  const pages = ["Aksiyon", "Komedi", "Dram","Favoriler", "Çıkış Yap"];
+  const pages = ["Aksiyon", "Komedi", "Dram"];
   const DrawerComp = ({ searchParam, handleSearch }) => {
   const [openDrawer, setOpenDrawer] = useState(false); // drawwerın açık veya kapalı olma durumunu tutar
   
