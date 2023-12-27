@@ -1,9 +1,9 @@
 import React from 'react'
-import Homepage from './components/Homepage'
+import ProtectedPage from './ProtectedPage'
 function App() {
   return(
     <>
-      <Homepage/>
+      <ProtectedPage/>
     </>
   )
 }
