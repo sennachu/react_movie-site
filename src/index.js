@@ -12,7 +12,7 @@ import Dram from "./components/Dram.jsx";
 //if (!process.env.REACT_APP_CLERK_PUBLISHABLE_KEY) {
 //  throw new Error("Missing Publishable Key");
 //}
-const clerkPubKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
+const clerkPubKey = process.env.local.REACT_APP_CLERK_PUBLISHABLE_KEY;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
